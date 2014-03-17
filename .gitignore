@@ -1,9 +1,26 @@
-# Created by http://www.gitignore.io
-
-### Erlang ###
-.eunit
-deps
-*.o
 *.beam
-*.plt
+*~
+*.swp
+*.patch
+*.orig
+*.tmp
 erl_crash.dump
+deps.mk
+
+cover/
+dist/
+include/rabbit_framing.hrl
+include/rabbit_framing_spec.hrl
+src/rabbit_framing_amqp*.erl
+src/*_usage.erl
+rabbit.plt
+basic.plt
+ebin/rabbit.app
+ebin/rabbit.rel
+ebin/rabbit.boot
+ebin/rabbit.script
+plugins/
+priv/plugins/
+
+docs/.*.[15].gz
+docs/.*.man.xml
